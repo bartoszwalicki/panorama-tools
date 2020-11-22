@@ -10,6 +10,10 @@
 
 Substitue `/local/folder/with/panoramas` with your local working directory.
 
+Change directory to `/panoramas`.
+
+`cd /panoramas`
+
 ## Installed tools
 
 - freepv with qtvr2img

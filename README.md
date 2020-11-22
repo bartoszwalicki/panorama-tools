@@ -2,11 +2,11 @@
 
 ## Build docker image
 
-`docker build --tag ssc-panorama-tools:1.0 .`
+`docker build --tag panorama-tools:1.0 .`
 
 ## Run container based on built image and log in into bash
 
-`docker run -ti -v /local/folder/with/panoramas:/panoramas ssc-panorama-tools:1.0 /bin/bash`
+`docker run -ti -v /local/folder/with/panoramas:/panoramas panorama-tools:1.0 /bin/bash`
 
 Substitue `/local/folder/with/panoramas` with your local working directory.
 
